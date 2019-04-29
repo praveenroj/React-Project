@@ -1,0 +1,25 @@
+.show-details {
+  padding: 30px;
+  .image-summary {
+    display: flex;
+    align-items: center;
+    .image {
+      text-align: center;
+      background: lightblue;
+      margin-right: 10px;
+      img {
+        height: 300px;
+      }
+    }
+    .genre-container{
+      span {
+        background: lightgray;
+        padding: 5px;
+        margin-right: 5px;
+        border:2px solid;
+        border-radius: 5px
+      }
+    }
+  }
+  
+}
